@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Models;
 
@@ -9,7 +5,7 @@ namespace ContosoUniversity.Data
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext (DbContextOptions<SchoolContext> options)
+        public SchoolContext(DbContextOptions<SchoolContext> options)
             : base(options)
         {
         }
@@ -29,10 +25,5 @@ namespace ContosoUniversity.Data
             modelBuilder.Entity<Student>().ToTable(nameof(Student));
             modelBuilder.Entity<Instructor>().ToTable(nameof(Instructor));
         }
-
-
-
-
-        public DbSet<ContosoUniversity.Models.Student> Student { get; set; } = default!;
     }
 }
