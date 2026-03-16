@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContosoUniversity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a25d0da84e0f9c9e03721651a27af5cfd427bd71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f362ea4d6b9f2e2c6336774637777a957ca5a21c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContosoUniversity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContosoUniversity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
